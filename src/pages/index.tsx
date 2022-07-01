@@ -1,16 +1,5 @@
-import type { NextPage } from 'next'
+import Main from 'components/Main'
 
-type Props = {
-  title: string
+export default function Home() {
+  return <Main />
 }
-
-const Home: NextPage<Props> = ({ title = 'React Avançado' }: Props) => {
-  return (
-    <div className="container">
-      <h1>{title}</h1>
-      <p>Curso de react com next.js</p>
-    </div>
-  )
-}
-
-export default Home
