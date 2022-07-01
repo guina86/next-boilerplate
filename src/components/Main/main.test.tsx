@@ -14,4 +14,12 @@ describe('<Main />', () => {
 
     expect(container).toMatchSnapshot()
   })
+
+  it('should render the colors correctly', () => {
+    render(<Main />)
+
+    expect(screen.getByRole('main')).toHaveStyle({
+      'background-color': '#06092b'
+    })
+  })
 })
