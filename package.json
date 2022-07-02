@@ -10,7 +10,7 @@
     "test": "jest --passWithNoTests --no-cache",
     "test:watch": "npm t -- --watch",
     "test:staged": "npm t -- --findRelatedTests",
-    "generate": "plop --plopfile generators/plopfile.js",
+    "plop": "plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
