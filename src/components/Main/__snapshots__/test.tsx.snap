@@ -56,12 +56,12 @@ exports[`<Main /> should render correctly 1`] = `
     <h1
       class="c2"
     >
-      React Avançado
+      Next.js project boilerplate
     </h1>
     <h2
       class="c3"
     >
-      TypeScript, ReactJS, NextJS e Styled Components
+      Next.js, TypeScript, Styled Components, Jest and StoryBook
     </h2>
     <img
       alt="Um desenvolvedor de frente para uma tela com código."

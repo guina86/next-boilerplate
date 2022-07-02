@@ -5,7 +5,7 @@ describe('<Main />', () => {
   it('should render the heading', () => {
     render(<Main />)
     expect(
-      screen.getByRole('heading', { name: /react avançado/i })
+      screen.getByRole('heading', { name: /next.js project boilerplate/i })
     ).toBeInTheDocument()
   })
 
