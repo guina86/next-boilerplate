@@ -24,7 +24,7 @@ export const Title = styled.h1`
 
 export const Description = styled.h2`
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 400;
 `
 
 export const Illustration = styled.img`
